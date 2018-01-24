@@ -8,11 +8,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <h1>Oddity</h1>
+        <nav>
           <Link to='/'>Home</Link>
           <Link to='/'>About</Link>
           <Link to='/'>Contact</Link>
+        </nav>
+        <header>
+          <h1>Oddity</h1>
+          <h3>Create Yours</h3>
 
         </header>
         <main>
