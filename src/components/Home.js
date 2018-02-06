@@ -1,17 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
+import logo from './../assets/oddity_full_logo.png';
+import { Banner, Row, Column, Box, Card, Heading, Subhead } from 'rebass';
 
-const Home = () => (
-	<section className="home">
-		<p>Welcome to Create Oddity, LLC - a digital creative media agency. 
-		At Create Oddity, we dedicate our resources to the passionate pursuit of the creative process.</p>
-		
-		<p>Here, we bring design and technology together through our hive mind to breathe life into all 
-		those artsy anomalies lurking around in the headspace. Our mission is to provide a creative outlet
-		to produce content that people fall in love with!</p>
+class Home extends Component {
 
-		<p>We invite you to take some time to look around - we offer a variety of servies in the audio/visual realms,
-		everything it takes to transform your ideas into creative content for the masses at large.</p>
-	</section>
-);
+	render (){
+		return (
+			<section>
+				<Banner color='white' bg='white'>
+					<img src={logo} style={{ width: 500 }}></img>
+				</Banner>
+			</section>
+		);
+	}
+}
 
 export default Home;
