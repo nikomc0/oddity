@@ -9,12 +9,12 @@ class App extends Component {
     return (
       <div className="App">
         <nav>
-          <Link to='/'>Home</Link>
-          <Link to='/'>About</Link>
-          <Link to='/'>Contact</Link>
+          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/'>About</Link></li>
+          <li><Link to='/'>Contact</Link></li>
         </nav>
         <header>
-          <img src={logo} style={{ height: 150 }}></img>
+          <img src={logo} style={{ height: 100 }}></img>
         </header>
         <main>
           <Route exact path="/" component={Home} />
