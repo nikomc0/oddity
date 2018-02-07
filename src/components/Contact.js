@@ -13,12 +13,12 @@ class Contact extends Component {
 				</Row>
 					<Flex wrap mx={5}>
 						<Box w={[1,1/2]} px={1} pt={3}>
-							<Measure f={[5, 10, 15]}>
+							<Text f={[5, 10, 15]}>
 							Tired of staring at the blank page and blinking cursor? We've all
 							been there, and we understand it can be overwhelming.
 							Let's brainstorm about your vision, goals, and what we can do to 
 							facilitate your oddity!
-							</Measure>
+							</Text>
 						</Box>
 						
 						<Box w={[1,1/2]} px={1}>
