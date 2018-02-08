@@ -5,14 +5,8 @@ import { Banner, Row, Flex, Column, Box, Card, Heading, Subhead, Measure, Text }
 class Contact extends Component {
 	render (){
 		return (
-			<section>
-				<Row width={1} mx={1/2}>
-					<Column pt={120}>
-						<Heading children='Contact Us' f={[30, 40, 50]}></Heading>
-					</Column>
-				</Row>
-					<Flex wrap mx={5}>
-						<Box w={1/2} px={1} pt={3}>
+					<Flex wrap>
+						<Box w={1/2}>
 							<Text>
 							Tired of staring at the blank page and blinking cursor? We've all
 							been there, and we understand it can be overwhelming.
@@ -21,14 +15,13 @@ class Contact extends Component {
 							</Text>
 						</Box>
 						
-						<Box w={1/2} px={1}>
+						<Box w={1/2}>
 							<Text>
 							<h3>(650) 524-5197</h3>
 							<h3>innovation@createoddity.com</h3>
 							</Text>
 						</Box>
 					</Flex>
-			</section>
 		);
 	}
 }
