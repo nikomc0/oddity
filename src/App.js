@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import { injectGlobal } from 'styled-components';
 import { Provider, Toolbar, NavLink } from 'rebass';
+import Foundation from 'react-foundation';
 
 import './App.css';
 import Home from './components/Home';
