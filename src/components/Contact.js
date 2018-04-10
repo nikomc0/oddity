@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './../assets/oddity_full_logo.png';
 
 class Contact extends Component {
 	render (){

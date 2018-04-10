@@ -7,7 +7,7 @@ class Home extends Component {
 		return (
 			<section className="container-fluid">
 				<div>
-					<img src={logo} style={{ width: 400 }}></img>
+					<img src={logo} style={{ width: 400 }} alt="Oddity logo"></img>
 				</div>
 				<div className="row mission">
 					<div className="col"><h1>CREATE</h1></div>
