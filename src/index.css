@@ -3,3 +3,15 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#contact {
+	margin-top: 10rem;
+}
+.navbar {
+	background-color: #301a3f;
+	color: white;
+}
+
+.mission {
+	margin-top: 5rem;
+}
