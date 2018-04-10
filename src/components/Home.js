@@ -5,8 +5,8 @@ class Home extends Component {
 
 	render (){
 		return (
-			<section>
-				<div className="container-fluid">
+			<section className="container-fluid">
+				<div>
 					<img src={logo} style={{ width: 400 }}></img>
 				</div>
 				<div className="row mission">
